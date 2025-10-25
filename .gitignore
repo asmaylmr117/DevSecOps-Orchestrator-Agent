@@ -1,0 +1,30 @@
+# ==================================
+# PYTHON ENVIRONMENT & BYTECODE
+# ==================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments (Local Setup)
+venv/
+.venv/
+
+# ==================================
+# IDE & OS Files
+# ==================================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ==================================
+# SENSITIVE DATA & DOCKER BUILD FILES
+# ==================================
+# Sensitive Environment Variables (e.g., JIRA_API_KEY)
+.env
+*.env
+
+# Temporary build directories created by Docker
+.dockerignore
+.dockerbuild/
