@@ -1,10 +1,10 @@
-# 🛡️ ACIP DevSecOps Orchestrator Agent (Phase 1 Deliverable)
+#  ACIP DevSecOps Orchestrator Agent (Phase 1 Deliverable)
 
 This repository contains the initial implementation of the **DevSecOps Orchestrator Agent (Layer 1)**, a core component of the Advanced Cybersecurity Intelligence Platform (ACIP). This agent is responsible for automating the critical process of **vulnerability prioritization** and ticket creation.
 
 ---
 
-## 🎯 Phase 1 Success Summary
+##  Phase 1 Success Summary
 
 This deliverable successfully establishes the intelligent backend logic for the DevSecOps Dashboard.
 
@@ -13,7 +13,7 @@ This deliverable successfully establishes the intelligent backend logic for the 
 * **Intelligence Core:** The **Prioritization Agent** implements the core **Risk-Scoring Algorithm** to convert raw security data into actionable severity scores.
 * **Integration Ready:** The service is fully containerized and exposes an API endpoint for command delegation from the Master Orchestrator.
 
-## ⚙️ Architectural & Tech Stack
+##  Architectural & Tech Stack
 
 | Component | Technology / Framework | Role in Implementation |
 | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ This deliverable successfully establishes the intelligent backend logic for the 
 
 ---
 
-## 🚀 Execution Guide (How to Run the Service)
+##  Execution Guide (How to Run the Service)
 
 ### Prerequisites
 1.  **Docker Desktop:** Must be installed and running (ensuring WSL 2 is enabled).
