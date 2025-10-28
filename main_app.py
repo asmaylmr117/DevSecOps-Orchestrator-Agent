@@ -4,7 +4,7 @@ from devsecops_module.state_schema import INITIAL_STATE
 def run_devsecops_orchestrator():
     """Traffic flow operating point."""
     
-    print("--- بدء تشغيل DevSecOps Orchestrator ---")
+    print("--- start DevSecOps Orchestrator ---")
     
     # start
     final_state = devsecops_graph.invoke(INITIAL_STATE)
