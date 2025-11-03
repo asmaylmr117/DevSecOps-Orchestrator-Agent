@@ -22,8 +22,7 @@ Thumbs.db
 # SENSITIVE DATA & DOCKER BUILD FILES
 # ==================================
 # Sensitive Environment Variables (e.g., JIRA_API_KEY)
-.env
-*.env
+
 
 # Temporary build directories created by Docker
 .dockerignore

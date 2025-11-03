@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "devsecops_orchestrator": "./devsecops_module/orchestrator/devsecops_graph.py:devsecops_graph"
+  },
+  "env": ".env"
+}

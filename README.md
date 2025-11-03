@@ -35,3 +35,17 @@ Execute this command in the root directory of the project (`ACIP_Project/`):
 
 ```bash
 docker build -t acip-devsecops-orchestrator .
+
+```bash
+tests:
+  python -m pytest devsecops_module/tests/
+
+docker:
+  docker build -t acip-devsecops-orchestrator .
+  docker compose up -d
+
+langgraph_studio:
+  # Windows
+  C:\Users\GooGle\AppData\Local\Programs\Python\Python311\Scripts\langgraph.exe dev
+  # or (cross-platform)
+  python -m langgraph dev

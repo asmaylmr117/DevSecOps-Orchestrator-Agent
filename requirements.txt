@@ -1,5 +1,9 @@
 langgraph
 langchain-core
+langgraph-checkpoint
+langchain-anthropic
 pydantic
 requests
 pytest
+fastapi          
+uvicorn
