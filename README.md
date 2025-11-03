@@ -45,6 +45,8 @@ docker:
   docker compose up -d
 
 langgraph_studio:
+  # install langgraph-cli
+   python -m pip install langgraph-cli
   # Windows
   C:\Users\GooGle\AppData\Local\Programs\Python\Python311\Scripts\langgraph.exe dev
   # or (cross-platform)
