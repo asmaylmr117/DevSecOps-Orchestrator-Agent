@@ -30,7 +30,7 @@ This deliverable successfully establishes the intelligent backend logic for the 
 1.  **Docker Desktop:** Must be installed and running (ensuring WSL 2 is enabled).
 2.  **Required Libraries:** (LangGraph, pytest, requests) are listed in `requirements.txt`.
 
-### Step 1: Build the Docker Image
+### Step 1: running
 Execute this command in the root directory of the project (`ACIP_Project/`):
 
 ```bash
