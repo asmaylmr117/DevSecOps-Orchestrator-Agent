@@ -37,6 +37,9 @@ Execute this command in the root directory of the project (`ACIP_Project/`):
 docker build -t acip-devsecops-orchestrator .
 
 ```bash
+install Libraries:
+pip install langgraph langchain-core langgraph-checkpoint langchain-anthropic pydantic requests pytest fastapi uvicorn
+
 tests:
   python -m pytest devsecops_module/tests/
 
