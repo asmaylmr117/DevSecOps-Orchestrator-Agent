@@ -53,4 +53,4 @@ langgraph_studio:
   # Windows
   C:\Users\GooGle\AppData\Local\Programs\Python\Python311\Scripts\langgraph.exe dev
   # or (cross-platform)
-  python -m langgraph dev
+  python -m langgraph_cli dev
